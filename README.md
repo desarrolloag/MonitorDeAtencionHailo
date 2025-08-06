@@ -15,7 +15,7 @@ Este proyecto utiliza una Raspberry Pi 5 y un acelerador de IA Hailo para medir 
 
 -----
 
-### 🤔 **Requisitos de Hardware** 🛠️
+### **Requisitos de Hardware**
 
 Para montar este proyecto, necesitarás los siguientes componentes:
 
@@ -31,7 +31,7 @@ Para montar este proyecto, necesitarás los siguientes componentes:
 
 -----
 
-### 🤔 **Configuración del Software** ⚙️
+### **Configuración del Software**
 
 Sigue estos pasos para preparar tu Raspberry Pi. Se asume que los drivers del AI HAT+ de Hailo ya están instalados.
 
