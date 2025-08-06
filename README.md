@@ -1,41 +1,35 @@
-He vuelto a cometer el mismo error y lo entiendo. Es mi responsabilidad darte la guía completa y correcta, sin comentarios adicionales que rompan el formato.
-
-Aquí está el texto completo en formato Markdown. Por favor, cópialo tal cual y pégalo en tu archivo `README.md`.
-
-````markdown
 # Sistema de Analítica de Atención en Vitrinas 🤖️
 
 Este proyecto utiliza una Raspberry Pi 5 y un acelerador de IA Hailo para medir la atención de las personas hacia una vitrina o exhibición de productos. Cuando el sistema detecta una **"atención cualificada"** (una persona mira fijamente por un tiempo), registra un "impacto visual" y toma una fotografía como evidencia.
 
-![placeholder](https://i.imgur.com/v2Jz7g6.png)
 *(Aquí puedes poner una foto o un GIF de tu proyecto en acción)*
 
 ## Índice
 
-* [Requisitos de Hardware](#-requisitos-de-hardware-️)
-* [Configuración del Software](#-configuración-del-software)
-* [Estructura del Repositorio](#-estructura-del-repositorio)
-* [Uso y Calibración del Programa](#-uso-y-calibración-del-programa)
-* [Autoinicio del Sistema](#-autoinicio-del-sistema)
-* [Solución de Problemas](#-solución-de-problemas)
+  * [Requisitos de Hardware](https://www.google.com/search?q=%23-requisitos-de-hardware-%EF%B8%8F)
+  * [Configuración del Software](https://www.google.com/search?q=%23-configuraci%C3%B3n-del-software)
+  * [Estructura del Repositorio](https://www.google.com/search?q=%23-estructura-del-repositorio)
+  * [Uso y Calibración del Programa](https://www.google.com/search?q=%23-uso-y-calibraci%C3%B3n-del-programa)
+  * [Autoinicio del Sistema](https://www.google.com/search?q=%23-autoinicio-del-sistema)
+  * [Solución de Problemas](https://www.google.com/search?q=%23-soluci%C3%B3n-de-problemas)
 
----
+-----
 
 ### **Requisitos de Hardware** 🛠️
 
 Para montar este proyecto, necesitarás los siguientes componentes:
 
-* **Procesamiento:**
-    * **Raspberry Pi 5**
-    * **Raspberry Pi AI HAT+** con acelerador Hailo-8 AI.
-* **Periféricos:**
-    * Cámara USB compatible con Raspberry Pi.
-    * Tarjeta MicroSD de 16 GB o más.
-    * **Batería RTC oficial de Raspberry Pi 5** (recomendado para mantener la hora sin energía).
-* **Fuente de alimentación:**
-    * Fuente de alimentación USB-C para la Raspberry Pi 5 (5V, 5A).
+  * **Procesamiento:**
+      * **Raspberry Pi 5**
+      * **Raspberry Pi AI HAT+** con acelerador Hailo-8 AI.
+  * **Periféricos:**
+      * Cámara USB compatible con Raspberry Pi.
+      * Tarjeta MicroSD de 16 GB o más.
+      * **Batería RTC oficial de Raspberry Pi 5** (recomendado para mantener la hora sin energía).
+  * **Fuente de alimentación:**
+      * Fuente de alimentación USB-C para la Raspberry Pi 5 (5V, 5A).
 
----
+-----
 
 ### **Configuración del Software** ⚙️
 
@@ -44,15 +38,17 @@ Sigue estos pasos para preparar tu Raspberry Pi. Se asume que los drivers del AI
 #### **Paso 1: Clonar el Repositorio**
 
 Abre una terminal y clona este repositorio:
+
 ```bash
-git clone [https://github.com/TU_USUARIO/MonitorDeAtencionHailo.git](https://github.com/TU_USUARIO/MonitorDeAtencionHailo.git)
+git clone https://github.com/TU_USUARIO/MonitorDeAtencionHailo.git
 cd MonitorDeAtencionHailo
-# NOTA: Cambia la URL por la de tu propio repositorio
-````
+```
+
+*(Recuerda cambiar la URL por la de tu propio repositorio)*
 
 #### **Paso 2: Instalar Dependencias**
 
-El proyecto necesita varias librerías de Python. Es una buena práctica crear un entorno virtual para mantener el proyecto ordenado.
+El proyecto necesita varias librerías de Python. La mejor práctica es usar un entorno virtual.
 
 1.  Crea y activa un entorno virtual (si no lo has hecho ya):
     ```bash
@@ -100,7 +96,7 @@ Para que el script inicie automáticamente al encender la Raspberry Pi, sigue es
     sudo systemctl daemon-reload
     sudo systemctl enable medidor_atencion.service
     ```
-3.  Inicia el servicio para probarlo:
+3.  Inicia el servicio por primera vez:
     ```bash
     sudo systemctl start medidor_atencion.service
     ```
@@ -119,8 +115,3 @@ Para detenerlo, usa el comando `sudo systemctl stop medidor_atencion.service`.
       * Usa `lsusb` en la terminal para confirmar que la cámara sea detectada.
   * **Bajo rendimiento (video lento):**
       * Asegúrate de que el **AI HAT+ esté conectado firmemente** y que los drivers de Hailo estén activos.
-
-<!-- end list -->
-
-```
-```
