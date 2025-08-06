@@ -4,8 +4,8 @@ Este proyecto utiliza una Raspberry Pi 5 y un acelerador de IA Hailo para medir 
 
 ## Índice
 
-  * [Requisitos de Hardware](#-Requisitos-de-Hardware)
-  * [Configuración del Software](#-Configuración-del-Software)
+  * [Requisitos de Hardware](#-Requisitos-de-Hardware-)
+  * [Configuración del Software](#-Configuración-del-Software-)
   * [Estructura del Repositorio](#-estructura-del-repositorio)
   * [Uso y Calibración del Programa](#-uso-y-calibración-del-programa)
   * [Autoinicio del Sistema](#-autoinicio-del-sistema)
