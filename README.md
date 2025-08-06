@@ -1,13 +1,11 @@
-# Sistema de Analítica de Atención en Vitrinas 🤖️
+# Sistema de Analítica de Atención en Vitrinas 
 
 Este proyecto utiliza una Raspberry Pi 5 y un acelerador de IA Hailo para medir la atención de las personas hacia una vitrina o exhibición de productos. Cuando el sistema detecta una **"atención cualificada"** (una persona mira fijamente por un tiempo), registra un "impacto visual" y toma una fotografía como evidencia.
-
-*(Aquí puedes poner una foto o un GIF de tu proyecto en acción)*
 
 ## Índice
 
   * [Requisitos de Hardware](#-Requisitos-de-Hardware-️)
-  * [Configuración del Software](#-configuración-del-software)
+  * [Configuración del Software](#-configuración-del-software-)
   * [Estructura del Repositorio](#-estructura-del-repositorio)
   * [Uso y Calibración del Programa](#-uso-y-calibración-del-programa)
   * [Autoinicio del Sistema](#-autoinicio-del-sistema)
@@ -15,7 +13,7 @@ Este proyecto utiliza una Raspberry Pi 5 y un acelerador de IA Hailo para medir 
 
 -----
 
-### **Requisitos de Hardware**
+### 🤔 **Requisitos de Hardware** ▶️
 
 Para montar este proyecto, necesitarás los siguientes componentes:
 
@@ -31,7 +29,7 @@ Para montar este proyecto, necesitarás los siguientes componentes:
 
 -----
 
-### **Configuración del Software**
+### 🤔 **Configuración del Software** ▶️
 
 Sigue estos pasos para preparar tu Raspberry Pi. Se asume que los drivers del AI HAT+ de Hailo ya están instalados.
 
@@ -46,7 +44,7 @@ cd MonitorDeAtencionHailo
 
 *(Recuerda cambiar la URL por la de tu propio repositorio)*
 
-#### **Paso 2: Instalar Dependencias**
+#### **Paso 2: Instalar Dependencias** 
 
 El proyecto necesita varias librerías de Python. La mejor práctica es usar un entorno virtual.
 
@@ -62,7 +60,7 @@ El proyecto necesita varias librerías de Python. La mejor práctica es usar un 
 
 -----
 
-### 🤔 **Estructura del Repositorio** 📂
+### 🤔 **Estructura del Repositorio** ▶️
 
   * **`MedidorAtencion3.py`**: El script principal de Python que ejecuta la lógica del proyecto.
   * **`lanzar_medidor.sh`**: Script de lanzamiento que activa el entorno virtual y ejecuta el programa.
@@ -83,7 +81,7 @@ Antes de ejecutar, abre el archivo `MedidorAtencion3.py` y ajusta los parámetro
 
 -----
 
-### 🤔 **Autoinicio del Sistema** 🚀
+### 🤔 **Autoinicio del Sistema** ▶️
 
 Para que el script inicie automáticamente al encender la Raspberry Pi, sigue estos pasos:
 
@@ -105,7 +103,7 @@ Para detenerlo, usa el comando `sudo systemctl stop medidor_atencion.service`.
 
 -----
 
-### 🤔 **Solución de Problemas** 🤔
+### 🤔 **Solución de Problemas**
 
   * **El programa no inicia o se cierra:**
       * Revisa los logs con `journalctl -u medidor_atencion.service` para ver el error.
