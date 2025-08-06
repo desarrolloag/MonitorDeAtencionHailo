@@ -15,7 +15,7 @@ Este proyecto utiliza una Raspberry Pi 5 y un acelerador de IA Hailo para medir 
 
 -----
 
-### **Requisitos de Hardware** 🛠️
+### 🤔 **Requisitos de Hardware** 🛠️
 
 Para montar este proyecto, necesitarás los siguientes componentes:
 
@@ -31,7 +31,7 @@ Para montar este proyecto, necesitarás los siguientes componentes:
 
 -----
 
-### **Configuración del Software** ⚙️
+### 🤔 **Configuración del Software** ⚙️
 
 Sigue estos pasos para preparar tu Raspberry Pi. Se asume que los drivers del AI HAT+ de Hailo ya están instalados.
 
@@ -62,7 +62,7 @@ El proyecto necesita varias librerías de Python. La mejor práctica es usar un 
 
 -----
 
-### **Estructura del Repositorio** 📂
+### 🤔 **Estructura del Repositorio** 📂
 
   * **`MedidorAtencion3.py`**: El script principal de Python que ejecuta la lógica del proyecto.
   * **`lanzar_medidor.sh`**: Script de lanzamiento que activa el entorno virtual y ejecuta el programa.
@@ -73,7 +73,7 @@ El proyecto necesita varias librerías de Python. La mejor práctica es usar un 
 
 -----
 
-### **Uso y Calibración del Programa** ▶️
+### 🤔 **Uso y Calibración del Programa** ▶️
 
 Antes de ejecutar, abre el archivo `MedidorAtencion3.py` y ajusta los parámetros que se encuentran al inicio del script.
 
@@ -83,7 +83,7 @@ Antes de ejecutar, abre el archivo `MedidorAtencion3.py` y ajusta los parámetro
 
 -----
 
-### **Autoinicio del Sistema** 🚀
+### 🤔 **Autoinicio del Sistema** 🚀
 
 Para que el script inicie automáticamente al encender la Raspberry Pi, sigue estos pasos:
 
@@ -105,7 +105,7 @@ Para detenerlo, usa el comando `sudo systemctl stop medidor_atencion.service`.
 
 -----
 
-### **Solución de Problemas** 🤔
+### 🤔 **Solución de Problemas** 🤔
 
   * **El programa no inicia o se cierra:**
       * Revisa los logs con `journalctl -u medidor_atencion.service` para ver el error.
