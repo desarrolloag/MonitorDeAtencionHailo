@@ -1,0 +1,13 @@
+[Unit]
+Description=Servicio de Medidor de Atencion
+After=network.target
+
+[Service]
+User=asolano
+Environment="DISPLAY=:0"
+WorkingDirectory=/home/asolano/hailo_examples
+ExecStart=/home/asolano/hailo_examples/lanzar_medidor.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
