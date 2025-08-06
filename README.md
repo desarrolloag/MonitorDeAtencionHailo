@@ -6,12 +6,12 @@ Este proyecto utiliza una Raspberry Pi 5 y un acelerador de IA Hailo para medir 
 
 ## Índice
 
-  * [Requisitos de Hardware](https://www.google.com/search?q=%23-requisitos-de-hardware-%EF%B8%8F)
-  * [Configuración del Software](https://www.google.com/search?q=%23-configuraci%C3%B3n-del-software)
-  * [Estructura del Repositorio](https://www.google.com/search?q=%23-estructura-del-repositorio)
-  * [Uso y Calibración del Programa](https://www.google.com/search?q=%23-uso-y-calibraci%C3%B3n-del-programa)
-  * [Autoinicio del Sistema](https://www.google.com/search?q=%23-autoinicio-del-sistema)
-  * [Solución de Problemas](https://www.google.com/search?q=%23-soluci%C3%B3n-de-problemas)
+  * [Requisitos de Hardware](#-requisitos-de-hardware-️)
+  * [Configuración del Software](#-configuración-del-software)
+  * [Estructura del Repositorio](#-estructura-del-repositorio)
+  * [Uso y Calibración del Programa](#-uso-y-calibración-del-programa)
+  * [Autoinicio del Sistema](#-autoinicio-del-sistema)
+  * [Solución de Problemas](#-solución-de-problemas)
 
 -----
 
