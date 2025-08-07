@@ -32,7 +32,7 @@ Para montar este proyecto, necesitarás los siguientes componentes:
         
 -----
 
-### 🔌 Configuración del Software 
+### Configuración del Software 
 
 Sigue estos pasos en orden para preparar tu sistema y clonar el proyecto.
 
