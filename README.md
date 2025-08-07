@@ -16,7 +16,7 @@ Este proyecto utiliza una Raspberry Pi 5 y un acelerador de IA Hailo para medir 
 
 ---
 
-### **Requisitos de Hardware** 🛠️
+### 🛠️**Requisitos de Hardware** 🛠️
 
 Para montar este proyecto, necesitarás los siguientes componentes:
 
@@ -42,7 +42,7 @@ Sigue estos pasos en orden para preparar tu sistema y clonar el proyecto.
 2.  **Configurar el AI HAT+:** Sigue las instrucciones oficiales para la instalación física y de software del **AI HAT+** en tu Raspberry Pi 5. Puedes encontrar la documentación detallada aquí:
     * [Instalación del AI HAT+ en Raspberry Pi](https://www.raspberrypi.com/documentation/accessories/ai-hat-plus.html)
     * [Información general sobre IA en Raspberry Pi](https://www.raspberrypi.com/documentation/computers/ai.html)
-3.  **Instalar los Drivers de Hailo:** El AI HAT+ necesita sus drivers para funcionar correctamente. Este es un paso fundamental. Sigue la [guía de instalación oficial de Hailo](https://docs.hailo.ai/hailo-ai-software-suite/latest/installation.html).
+3.  **Instalar los Drivers de Hailo:** El AI HAT+ necesita sus drivers para funcionar correctamente. Este es un paso fundamental.
 
 #### **Paso 1: Clonar Repositorios y Configurar el Entorno Virtual**
 
