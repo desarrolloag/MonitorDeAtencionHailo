@@ -16,7 +16,7 @@ Este proyecto utiliza una Raspberry Pi 5 y un acelerador de IA Hailo para medir 
 
 ---
 
-### 🛠️**Requisitos de Hardware** 🛠️
+### **Requisitos de Hardware** 🛠️
 
 Para montar este proyecto, necesitarás los siguientes componentes:
 
@@ -42,7 +42,7 @@ Sigue estos pasos en orden para preparar tu sistema y clonar el proyecto.
 2.  **Configurar el AI HAT+:** Sigue las instrucciones oficiales para la instalación física y de software del **AI HAT+** en tu Raspberry Pi 5. Puedes encontrar la documentación detallada aquí:
     * [Instalación del AI HAT+ en Raspberry Pi](https://www.raspberrypi.com/documentation/accessories/ai-hat-plus.html)
     * [Información general sobre IA en Raspberry Pi](https://www.raspberrypi.com/documentation/computers/ai.html)
-3.  **Instalar los Drivers de Hailo:** El AI HAT+ necesita sus drivers para funcionar correctamente. Este es un paso fundamental.
+3.  **Instalar los Drivers de Hailo:** El AI HAT+ necesita sus drivers para funcionar correctamente. Este es un paso fundamental. Sigue la [guía de instalación oficial de Hailo](https://docs.hailo.ai/hailo-ai-software-suite/latest/installation.html).
 
 #### **Paso 1: Clonar Repositorios y Configurar el Entorno Virtual**
 
@@ -51,18 +51,21 @@ Tu proyecto está basado en el repositorio de ejemplos de Hailo. Es necesario cl
 1.  Abre una terminal y clona el repositorio base:
     ```bash
     git clone [https://github.com/DeGirum/hailo_examples.git](https://github.com/DeGirum/hailo_examples.git)
+    ```
+2.  Navega al directorio del repositorio que acabas de clonar:
+    ```bash
     cd hailo_examples
     ```
-2.  Desde el mismo directorio, clona este repositorio:
+3.  Desde el mismo directorio, clona este repositorio:
     ```bash
     git clone [https://github.com/desarrolloag/MonitorDeAtencionHailo.git](https://github.com/desarrolloag/MonitorDeAtencionHailo.git)
     ```
-3.  Crea y activa un entorno virtual para el proyecto:
+4.  Crea y activa un entorno virtual para el proyecto:
     ```bash
     python3 -m venv venv_hailo
     source venv_hailo/bin/activate
     ```
-4.  Instala las librerías de Python necesarias para el repositorio base:
+5.  Instala las librerías de Python necesarias para el repositorio base:
     ```bash
     pip install -r requirements.txt
     ```
