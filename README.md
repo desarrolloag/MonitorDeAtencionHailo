@@ -29,6 +29,8 @@ Para montar este proyecto, necesitarás los siguientes componentes:
   * **Fuente de alimentación y disipador:**
       * [**FUENTE USB C RPi5**](https://www.agelectronica.com/detalle?busca=RASPBERRYPI-27W-USB-C-PSU)
       * [**DISIPADOR DE CALOR Y VENTILADOR**](https://www.agelectronica.com/detalle?busca=RASPBERRYPI-ACTIVE-COOLER)
+
+![placeholder](https://github.com/desarrolloag/MonitorDeAtencionHailo/blob/main/AIHAT+.jpeg?raw=true)
         
 -----
 
@@ -87,6 +89,8 @@ Ahora integraremos los archivos de tu proyecto y nos aseguraremos de que el cód
         bash lanzar_medidor.sh
         ```
     > **Nota:** Si tu proyecto usa un Jupyter Notebook (por ejemplo, si has modificado el `003_face_detection.ipynb`), asegúrate de haber instalado `jupyterlab` y de seguir los pasos de la sección de "Uso del programa" para modificar el nombre del modelo y ejecutar las celdas.
+
+![placeholder](https://github.com/desarrolloag/MonitorDeAtencionHailo/blob/main/evidencia_impacto_20250804_144006.jpg?raw=true)
 
 -----
 
