@@ -2,7 +2,7 @@
 
 Este proyecto utiliza una Raspberry Pi 5 y un acelerador de IA Hailo para medir la atención de las personas hacia una vitrina o exhibición de productos. Cuando el sistema detecta una **"atención cualificada"** (una persona mira fijamente por un tiempo), registra un "impacto visual" y toma una fotografía como evidencia.
 
-*(Aquí puedes poner una foto o un GIF de tu proyecto en acción)*
+![placeholder](https://github.com/desarrolloag/MonitorDeAtencionHailo/blob/main/MedidorAtencionHailo.gif?raw=true)
 
 ## Índice
 
@@ -32,7 +32,7 @@ Para montar este proyecto, necesitarás los siguientes componentes:
         
 -----
 
-### Configuración del Software 
+### 🔌 Configuración del Software 
 
 Sigue estos pasos en orden para preparar tu sistema y clonar el proyecto.
 
